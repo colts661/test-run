@@ -1,0 +1,1 @@
+This directory is used to store output data. The presence of this file simplifies the GitHub code repository.
