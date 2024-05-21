@@ -13,7 +13,7 @@ def test_env(name):
     print(f"GPU is available: {torch.cuda.is_available()}")
 
     # write results to file
-    with open(f"result/result_{run_time_str}.txt", "w") as f:
+    with open(f"persistent-data/result/result_{run_time_str}.txt", "w") as f:
         f.write(f"Example Result: {name}")
 
 if __name__ == "__main__":
